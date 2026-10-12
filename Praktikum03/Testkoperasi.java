@@ -1,5 +1,4 @@
 public class Testkoperasi {
-
     public static void main(String[] args) {
         Anggota anggota1 = new Anggota("111333444", "Donny", 5000000);
 
@@ -27,5 +26,7 @@ public class Testkoperasi {
         System.out.println("\nMembayar angsuran 3.000.000");
         anggota1.angsur(3000000);
         System.out.println("Jumlah pinjaman saat ini: " + anggota1.getJumlahPinjaman());
+        
+        System.out.println();
     }
 }
